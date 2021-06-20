@@ -62,5 +62,24 @@ help(package = "seqinr")
 http://cran.r-project.org/web/views/
 
 
+#-------BUSCANDO FUNCIONES CON UN NOMBRE ESPECÍFICO-----
+
+apropose("means")
+
+#el comanod anterior te proporcionará una lista de funciones que lleven consigo la palabra "mean",
+#esto es de ayuda por si olvidas el nombre de alguna función o deseas saber si existe cierta 
+#característica para dicho comando que te sea de utilidad, como el de "rowMeans". 
+         
+         
+#-----EJEMPLOS DEL USO DE LAS FUNCIONES-----
+         
+#Si se encuentra disponible dentro de R, podrás visualizar un ejemplo de cómo se usa cierta función,
+#por ejemplo, si deseas conocer el uso de "t.test", escribe lo siguiente:
+         
+example(t.test)
+
+         
+#Estos son algunos comandos de ayuda que debes conocer en caso de que te encuentres con algún error, 
+#desconozcas cómo se usa una paquetería, función, etc. 
 
 
