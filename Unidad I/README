@@ -1,1 +1,9 @@
 
+#En esta sección encontrarás los scripts de cada unidad. Los scripts están escritos en lenguaje R, 
+#por lo que deben ser ejecutados utiilizando Rstudio y poder visualizar los parámetros delos mismos. 
+
+#Cada script viene con una explicación y un ejemplo de cada caso para ejemplificar. 
+
+#Para poder ejecutarlos en tu computadora, puedes copiar el código completo en un script nuevo de R
+#o puedes decargar el archivo, cuando lo abras automaticamente, si tienes instalado R y Rstudio, 
+#se ejecutarán. 
