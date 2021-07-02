@@ -1,0 +1,16 @@
+---
+title: "Importar datos a R"
+author: "César Antonio Ponce-Diego"
+date: "2/7/2021"
+output: html_document
+---
+## Importación de datos
+
+Una vez que ya hemos visto un poco el cómo trabaja R a través de las estructuras de datos, ahora en lugar de crearlas dentro del ambiente de Rstudio, vamos a cargar una base de datos que tengamos. Para este propósito, usaré un archivo de excel llamado `curso_datos`, el cual tiene dos columnas, una que corresponde a la carrera y otro al semestre. En mi caso, tengo guardado el archivo en mi escritorio `Desktop`. Hay varias formas de cargar un archivo a R, supongamos el caso más sencillo, tenemos el archivo de excel y ya. Para hacerlo, debemos primero cargar una paquetería llamada `readxl()` con la siguiente función:
+
+```{r}
+
+#Paquetería para cargar archivos de excel
+library(readxl)
+
+```
