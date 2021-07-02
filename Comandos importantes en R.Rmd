@@ -2,8 +2,8 @@
 title: "Comandos importantes en R"
 author: "César Antonio Ponce-Diego"
 date: "Julio 2021"
-output: html_document
-html_preview: true
+output: github_document
+  html_preview: true
 ---
 
 ### Comandos de utilidad. 
