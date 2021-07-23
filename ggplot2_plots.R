@@ -553,13 +553,3 @@ ggsave(filename = "density_plot_theme.png", device = "png", units = "in",
        width = 8, height = 4, dpi = 350)
 
 
-
-#----Construir un histograma en 2D----
-
-#crear datos aleatorios
-df <- data.frame("x" = rnorm(1500), "y" = rnorm(1500))
-
-#crear grafico en 2D
-ggplot(df, aes(x = x, y = y)) + 
-  geom_hex() + 
-  theme_bw()
