@@ -1,6 +1,7 @@
 # Paqueterías----
 library(ggplot2)
-# remotes::install_github("R-CoderDotCom/ggcats@main")
+library(remotes)
+remotes::install_github("R-CoderDotCom/ggcats@main")
 library(ggcats)
 
 
